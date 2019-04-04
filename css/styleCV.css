@@ -39,31 +39,32 @@ span p{
 
 footer{
 	background: #00316b;
-
 }
 
 div .alert .alert-secondary {
 	margin: 0px;
 }
-
+#p2{
+	margin:50px 50px; 
+	color: white;
+}
 @media (max-width: 576px) { 
 	.card{
 		width:126px;
 		height:240px;
-	}
-	
+		}	
  }
 
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
+@media (min-width: 768px) { 
+		...
+	}
 
 // Large devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
+@media (min-width: 992px) { 
+	...
+	}
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 
-/*.info, .col-lg-8{
-	height: 450px;
-	border:1px solid black;
-}
