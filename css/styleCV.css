@@ -17,14 +17,10 @@ sub{
 .navbar-collapse{
 	justify-content: flex-end;	
 }
-.photo{
+.icon{
 	height: 20px;
 	width: 20px;
 	background: transparent;
-}
-.leftimg{
-	float: left;
-	overflow: left;
 }
 p{
 	font-family: Times New Roman;
@@ -36,35 +32,29 @@ span p{
 .educate{
 	display: inline-block;
 }
-
 footer{
 	background: #00316b;
 }
-
 div .alert .alert-secondary {
 	margin: 0px;
 }
 #p2{
-	margin:50px 50px; 
+	margin:50px 15px; 
 	color: white;
 }
-@media (max-width: 576px) { 
+@media only screen and (max-width: 576px) { 
 	.card{
 		width:126px;
 		height:240px;
-		}	
+		}
  }
-
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) { 
 		...
 	}
-
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) { 
 	...
 	}
-
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
-
