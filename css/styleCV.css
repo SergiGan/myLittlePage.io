@@ -7,7 +7,9 @@ body{
 .navbar{
 	margin: 0px ;
 	background: #00316b;
+	box-shadow : 0 0 40px grey;
 }
+
 #navbarNavAltMarkup .navbar-nav{
 	align: center;
 }
