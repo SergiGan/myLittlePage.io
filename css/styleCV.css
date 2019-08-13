@@ -34,6 +34,9 @@ p #L1:hover {
     color: white; /*#1d1f21;*/
     text-decoration: underline;
 }
+.softcard{
+	background-color: lightblue;
+}
 span p{
 	margin-top: 5px;
 	margin-bottom: 5px;
