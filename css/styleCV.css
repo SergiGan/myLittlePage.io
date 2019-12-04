@@ -1,15 +1,14 @@
 body{
 	margin:0px;
 	padding: 0px;
-	background-color: lightgrey;
-    font-family: "Lucida Sans Unicode", "Lucida Grande", "sans-serif", Times New Romans;
+	background-color: lightgrey; 
+    font-family:  Times New Romans;
 }
 .navbar{
 	margin: 0px ;
 	background: #00316b;
 	box-shadow : 0 0 40px grey;
 }
-
 #navbarNavAltMarkup .navbar-nav{
 	align: center;
 }
@@ -27,32 +26,40 @@ sub{
 p{
 	font-family: Times New Roman;
 }
-p #L1{
-	color: #f0ff00;	
-}
-p #L1:hover {
-    color: white; /*#1d1f21;*/
-    text-decoration: underline;
-}
-.softcard{
-	background-color: lightblue;
-}
 span p{
 	margin-top: 5px;
 	margin-bottom: 5px;
 }
-.educate{
-	display: inline-block;
+p #L1{
+	
+	color: white;
 }
+p #L1:hover {
+    color: black; /*#1d1f21;*/
+    text-decoration: underline;
+}
+.softcard{
+	background-color: #ADD8E6; /*#C0C0C0, #00316b;*/
+	box-shadow : 0 0 20px grey;	
+	border-radius: 5px;
+
+}
+
 footer{
 	background: #00316b;
 }
-/*div .alert .alert-secondary {
+
+div .alert .alert-secondary {
 	margin: 0px;
-}*/
+}
 #p2{
 	margin:50px 15px; 
 	color: white;
+}
+.educate{
+	/*display: inline-block;*/
+	background: #ADD8E6; /*#C0C0C0, #00316b;*/
+	box-shadow : 0 0 30px grey;
 }
 @media only screen and (max-width: 576px) { 
 	.card{
@@ -60,13 +67,21 @@ footer{
 		height:240px;
 		}
  }
+
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) { 
 		...
 	}
+
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) { 
 	...
 	}
+
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
+
+
+
+
+
