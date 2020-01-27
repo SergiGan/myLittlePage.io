@@ -9,9 +9,7 @@ body{
 	background: #00316b;
 	box-shadow : 0 0 40px grey;
 }
-#navbarNavAltMarkup .navbar-nav{
-	align: center;
-}
+
 sub{
 	text-transform:uppercase
 }
@@ -26,23 +24,31 @@ sub{
 p{
 	font-family: Times New Roman;
 }
+#text{
+	font-size: 16px; 
+	text-indent: 25px;
+}
 span p{
 	margin-top: 5px;
 	margin-bottom: 5px;
 }
-#tab{
-	margin-top: 16px; 
-	margin-left: 14px;
-}
 p #L1{
-	
 	color: white;
 }
 p #L1:hover {
     color: black; /*#1d1f21;*/
     text-decoration: underline;
 }
-.softcard{
+li{
+	font-family: Times New Roman;
+	font-size: 17px;
+}
+#tab{
+	margin-top: 16px; 
+	margin-left: 14px;
+}
+
+.softcard:hover{
 	background-color: #ADD8E6; /*#C0C0C0, #00316b;*/
 	box-shadow : 0 0 20px grey;	
 	border-radius: 5px;
