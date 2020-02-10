@@ -20,6 +20,8 @@ sub{
 	height: 20px;
 	width: 20px;
 	background: transparent;
+	padding-right: 1px ;
+	margin-right: 1px;
 }
 p{
 	font-family: Times New Roman;
@@ -36,13 +38,13 @@ p #L1{
 	color: white;
 }
 p #L1:hover {
-    color: black; /*#1d1f21;*/
+    color: black; 
     text-decoration: underline;
 }
 a {
 	text-decoration: none;
 }
-li{
+.list-group-item{
 	font-family: Times New Roman;
 	font-size: 17px;
 }
@@ -57,42 +59,74 @@ li{
 	border-radius: 5px;
 
 }
-
+.educate{
+	background: #ADD8E6; /*#C0C0C0, #00316b;*/
+	box-shadow : 0 0 30px grey;
+}
 footer{
+	display: flex;
+	flex: 1;
 	background: #00316b;
+	height: 120px;
+	flex-direction: column;
+	box-sizing: border-box;
 }
 
 div .alert .alert-secondary {
 	margin: 0px;
 }
 #p2{
-	margin:50px 15px; 
+	padding: 0px;
 	color: white;
+	
 }
-.educate{
-	/*display: inline-block;*/
-	background: #ADD8E6; /*#C0C0C0, #00316b;*/
-	box-shadow : 0 0 30px grey;
+.card-img{
+	padding-top: 0px;
+	width: auto;
+}
+
+.ft-main-item{
+	margin: 0px 10px 0px 0px;
+}
+img .card-img{
+	width: 100%;
 }
 @media only screen and (max-width: 576px) { 
 	.card{
 		width:126px;
 		height:240px;
 		}
+	#p2 p{
+	margin: 0px -15px 0px 0px;
+	font-size: 14px;
+	/*padding: 0px -15px 0px 0px;*/	
+	}
+	
+	.contacts{
+		 flex-direction: column;
+		 padding: 0px 0px;
+	}
+	section{
+		align-self:center;
+	}
  }
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { 
-		...
+/* Medium devices (tablets, 768px and up)*/
+@media (max-width: 768px) {
+	#p2{
+		margin-top: 4px;
 	}
+}
 
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) { 
-	...
-	}
+/* Large devices (desktops, 992px and up)@media (min-width: 992px) {
+	
+ }*/
 
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
+/* Extra large devices (large desktops, 1200px and up)@media (min-width: 1200px) { 
+
+ }*/
+
+
 
 
 
