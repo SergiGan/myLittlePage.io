@@ -34,10 +34,10 @@ span p{
 	margin-top: 5px;
 	margin-bottom: 5px;
 }
-p #L1{
+#L1{
 	color: white;
 }
-p #L1:hover {
+#L1:hover {
     color: black; 
     text-decoration: underline;
 }
