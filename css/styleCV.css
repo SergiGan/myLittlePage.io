@@ -1,3 +1,132 @@
+/* body{
+	margin:0px;
+	padding: 0px;
+	background-color: lightgrey; 
+    font-family:  Times New Romans;
+}
+.navbar{
+	margin: 0px ;
+	background: #00316b;
+	box-shadow : 0 0 40px grey;
+}
+
+sub{
+	text-transform:uppercase
+}
+.navbar-collapse{
+	justify-content: flex-end;	
+}
+.icon{
+	height: 20px;
+	width: 20px;
+	background: transparent;
+	padding-right: 1px ;
+	margin-right: 1px;
+}
+p{
+	font-family: Times New Roman;
+}
+#text{
+	font-size: 16px; 
+	text-indent: 25px;
+}
+span p{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+#L1{
+	color: white;
+}
+#L1:hover {
+    color: black; 
+    text-decoration: underline;
+}
+a {
+	text-decoration: none;
+}
+.list-group-item{
+	font-family: Times New Roman;
+	font-size: 17px;
+}
+#tab{
+	margin-top: 16px; 
+	margin-left: 14px;
+}
+
+.softcard:hover{
+	background-color: #ADD8E6; /*#C0C0C0, #00316b;*/
+	box-shadow : 0 0 20px grey;	
+	border-radius: 5px;
+
+}
+.educate{
+	background: #ADD8E6; /*#C0C0C0, #00316b;*/
+	box-shadow : 0 0 30px grey;
+}
+footer{
+	display: flex;
+	flex: 1;
+	background: #00316b;
+	height: 120px;
+	flex-direction: column;
+	box-sizing: border-box;
+}
+
+div .alert .alert-secondary {
+	margin: 0px;
+}
+#p2{
+	padding: 0px;
+	color: white;
+	
+}
+.card-img{
+	padding-top: 0px;
+	width: auto;
+}
+
+.ft-main-item{
+	margin: 0px 10px 0px 0px;
+}
+img .card-img{
+	width: 100%;
+}
+@media only screen and (max-width: 576px) { 
+	.card{
+		width:126px;
+		height:240px;
+		}
+	#p2 p{
+	margin: 0px -15px 0px 0px;
+	font-size: 14px;
+	
+	}
+	
+	.contacts{
+		 flex-direction: column;
+		 padding: 0px 0px;
+	}
+	section{
+		align-self:center;
+	}
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (max-width: 768px) {
+	#p2{
+		margin-top: 4px;
+	}
+}
+*/
+/* Large devices (desktops, 992px and up)@media (min-width: 992px) {
+	
+ }*/
+
+/* Extra large devices (large desktops, 1200px and up)@media (min-width: 1200px) { 
+
+ }*/
+
+**********************************************************
 body{
 	margin:0px;
 	padding: 0px;
@@ -125,7 +254,6 @@ img .card-img{
 /* Extra large devices (large desktops, 1200px and up)@media (min-width: 1200px) { 
 
  }*/
-
 
 
 
